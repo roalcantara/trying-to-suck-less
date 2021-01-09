@@ -246,7 +246,7 @@ When reviewing a Pull Request, try to:
      - We, as a team, are getting better each day;
      - Our product is getting better each day;
 
-### 6. Acknowledgements
+### 3. Acknowledgements
 
   All concepts expressed in this document have been extracted, adapted or inspired from many agile sources.
 
