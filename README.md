@@ -51,4 +51,9 @@ Describe some best practices used in my projects.
    - Configure the rule properly;
    - Apply the rule on the whole codebase on the project;
    - And the PR follows the regular Pull Request flow; YAY!
-   
+
+## 4. Testing
+
+- Write unit tests with [Jest](https://jestjs.io/).
+- Write E2E tests with [Cypress](https://www.cypress.io/).
+- Apply the [Better Specs](http://www.betterspecs.org/) best practices for testing - as much as possible.
