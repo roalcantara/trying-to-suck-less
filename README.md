@@ -257,3 +257,7 @@ When reviewing a Pull Request, try to:
 - [Goldilocks And The Three Code Reviews by Vaidehi Joshi](https://www.youtube.com/watch?v=-6EzycFNwzY)
 - [Code Review is an Architectural Necessity - GitHub Universe 2016](https://youtu.be/pJFM321_lAs)
 - [How to Give and Get Better Code Reviews](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
+
+## 10. Contribute
+
+- Abide by the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct
