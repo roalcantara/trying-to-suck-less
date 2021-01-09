@@ -105,3 +105,63 @@ Describe some best practices used in my projects.
   - **perf**: A code change that improves performance
   - **git**: Changes on git files, such as [`.gitignore`](https://git-scm.com/docs/gitignore)
  
+### 4. Pull Requests
+
+One would say that some of the primary purposes of Pull Requests are:
+
+- Add a product increment
+- Remove obsolete code/behaviour
+- Fix a product problem
+- Enhance product behaviour
+- Refactor code to improve quality
+- Add/change some architecture requirement
+- Update libraries or improve security
+- Discuss the better approach to specific issues
+
+#### 1. Main Goals
+
+The ideal PR should be:
+
+1. As smallest as possible
+2. Defects free
+3. Easy to be reviewed and validated
+4. Reviewed and validated as soon as possible
+5. Merged as quickly as possible
+6. Have been approved by at least one reviewer
+
+#### 2. Best Practices
+
+1. Prefer one feature/fix/refactoring per PR
+2. Estimate the PR before starting it
+3. Link the PR to an Issue before starting it
+4. Comment any consideration/doubt/problem/discussion/definition on the PR`s Issue;
+5. Try to have, at least, one Unit Tests per change, when applicable
+6. Try to make a PR that you would enjoy reviewing
+7. Remember, the next reviewer can be you
+
+#### 3. Before sending the PR to [Code Review](#8-code-reviews) ensures that
+
+1. Any implementation follows the [Coding Best Practices](#3-coding-best-practices) and any team `Style Guide.`
+2. Any commit follows the [Commit Best Practices](#commit-best-practices)
+3. Any change has been tested at least once. That is:
+   - Running the program
+   - Checking if the changes work properly
+4. All project's Unit Tests are keeping running
+5. There are no linter violations on the project
+6. You have reviewed your own code
+
+#### 4. To Get Better Code Reviews ensures that
+
+1. The PR has:
+   - The minimum changes necessary to accomplish the PR's goal
+   - The minimum essential commits to achieving the PR's goal
+   - A clear, short and concise title that summarizes the changes
+   - A clear description that contextualizes the problem you're solving
+2. Any relevant explanation or reference is present on the PR's description or commits;
+3. Whenever necessary, the PR describes how it must be validated
+    - Adding any relevant data to the validation, such as: 
+      - username, environment, password, deadline, etc.
+4. Avoid refactoring not related to the PR's goal
+   - Because it might difficult the Code Review
+   - However, if the refactoring is inevitable
+     - It should be adequately isolated and justified
