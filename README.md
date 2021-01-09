@@ -252,11 +252,12 @@ When reviewing a Pull Request, try to:
 
   The following are some of them:
 
-- [GOTO 2019 • Amazing Code Reviews: Creating a Superhero Collective by Alejandro Lujan](https://youtu.be/ly86Wq_E18o)
-- [Implementing a Strong Code-Review Culture by Derek Prior](https://www.youtube.com/watch?v=PJjmw9TRB7s)
-- [Goldilocks And The Three Code Reviews by Vaidehi Joshi](https://www.youtube.com/watch?v=-6EzycFNwzY)
-- [Code Review is an Architectural Necessity - GitHub Universe 2016](https://youtu.be/pJFM321_lAs)
-- [How to Give and Get Better Code Reviews](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
+- [Amazing Code Reviews: Creating a Superhero Collective by Alejandro Lujan • GOTO 2019](https://youtu.be/ly86Wq_E18o)
+- [Implementing a Strong Code-Review Culture by Derek Prior • RailsConf 2015](https://youtu.be/PJjmw9TRB7s)
+- [Goldilocks And The Three Code Reviews by Vaidehi Joshi • RailsConf 2017](https://youtu.be/-6EzycFNwzY)
+- [Code Review is an Architectural Necessity by Colin Dean • GitHub Universe 2016](https://youtu.be/pJFM321_lAs)
+- [How to Give and Get Better Code Reviews by Tracy Lum • Hackernoon](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
+- [Creating Simple and Effective Guidelines for Code Reviews by Joshua Gerth • New Relic](https://blog.newrelic.com/engineering/code-review-guidelines/)
 
 ## 10. Contribute
 
