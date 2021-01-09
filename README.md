@@ -70,3 +70,19 @@ Describe some best practices used in my projects.
 - Write commits that would help the [Code Review](#8-code-reviews)
 - Add any extra information that would help the [Code Review](#8-code-reviews)
 - Reference the [issue](https://help.github.com/en/articles/autolinked-references-and-urls) that originated the commit
+
+### 2. Commit Messages
+
+- Follow the [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/) tips
+- Follow the [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) tips
+- Consider using [Commitizen cli](http://commitizen.github.io/cz-cli/)
+
+#### 1. Follow [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
+
+1. [Separate subject from the body with a blank line](https://chris.beams.io/posts/git-commit/#separate)
+2. [Limit the subject line to 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
+3. [Capitalize on the subject line](https://chris.beams.io/posts/git-commit/#capitalize)
+4. [Do not end the subject line with a period](https://chris.beams.io/posts/git-commit/#end)
+5. [Use the imperative mood in the subject line](https://chris.beams.io/posts/git-commit/#imperative)
+6. [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
+7. [Use the body to explain what and why vs how](https://chris.beams.io/posts/git-commit/#why-not-how)
