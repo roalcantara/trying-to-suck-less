@@ -57,3 +57,16 @@ Describe some best practices used in my projects.
 - Write unit tests with [Jest](https://jestjs.io/).
 - Write E2E tests with [Cypress](https://www.cypress.io/).
 - Apply the [Better Specs](http://www.betterspecs.org/) best practices for testing - as much as possible.
+
+## 5. GIT
+
+### 1. General Guidelines
+
+- Follow the [Conventional Commits](https://conventionalcommits.org/)
+- Commit [often](https://sethrobertson.github.io/GitBestPractices/#sausage_metaphor)
+- Keep commits small and [atomic](https://www.freshconsulting.com/atomic-commits/)
+- Write [S.O.L.I.D.](https://youtu.be/e9K1gHYIE2c) commits
+- Write meaningful titles targeting for non-technical readers
+- Write commits that would help the [Code Review](#8-code-reviews)
+- Add any extra information that would help the [Code Review](#8-code-reviews)
+- Reference the [issue](https://help.github.com/en/articles/autolinked-references-and-urls) that originated the commit
