@@ -1,6 +1,6 @@
-# Trying to Suck Less
+# Trying to Suck Less (WIP)
 
-A forever WIP general best practices used on my projects.
+Describe some best practices used in my projects.
 
 ## 1. Workflow
 
