@@ -58,9 +58,7 @@ Describe some best practices used in my projects.
 - Write E2E tests with [Cypress](https://www.cypress.io/).
 - Apply the [Better Specs](http://www.betterspecs.org/) best practices for testing - as much as possible.
 
-## 5. GIT
-
-### 1. General Guidelines
+## 5. Git: General Guidelines
 
 - Follow the [Conventional Commits](https://conventionalcommits.org/)
 - Commit [often](https://sethrobertson.github.io/GitBestPractices/#sausage_metaphor)
@@ -71,13 +69,13 @@ Describe some best practices used in my projects.
 - Add any extra information that would help the [Code Review](#8-code-reviews)
 - Reference the [issue](https://help.github.com/en/articles/autolinked-references-and-urls) that originated the commit
 
-### 2. Commit Messages
+## 6. Git: Commit Messages
 
 - Follow the [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/) tips
 - Follow the [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) tips
 - Consider using [Commitizen cli](http://commitizen.github.io/cz-cli/)
 
-#### 1. Follow [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
+### 1. Follow [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
 
 1. [Separate subject from the body with a blank line](https://chris.beams.io/posts/git-commit/#separate)
 2. [Limit the subject line to 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
@@ -87,7 +85,7 @@ Describe some best practices used in my projects.
 6. [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
 7. [Use the body to explain what and why vs how](https://chris.beams.io/posts/git-commit/#why-not-how)
 
-### 3. Tools
+## 7. Git: Tools
 
 - Use [Commit Lint](https://commitlint.js.org/#/) to lint the commit messages
 - Must configure rules on [`.commitlintrc.yml`](https://commitlint.js.org/#/reference-configuration)
@@ -105,7 +103,7 @@ Describe some best practices used in my projects.
   - **perf**: A code change that improves performance
   - **git**: Changes on git files, such as [`.gitignore`](https://git-scm.com/docs/gitignore)
  
-### 4. Pull Requests
+## 8. Git: Pull Requests
 
 One would say that some of the primary purposes of Pull Requests are:
 
@@ -118,9 +116,7 @@ One would say that some of the primary purposes of Pull Requests are:
 - Update libraries or improve security
 - Discuss the better approach to specific issues
 
-#### 1. Main Goals
-
-The ideal PR should be:
+### 1. The ideal PR should be:
 
 1. As smallest as possible
 2. Defects free
@@ -129,7 +125,7 @@ The ideal PR should be:
 5. Merged as quickly as possible
 6. Have been approved by at least one reviewer
 
-#### 2. Best Practices
+### 2. Best Practices
 
 1. Prefer one feature/fix/refactoring per PR
 2. Estimate the PR before starting it
@@ -139,10 +135,10 @@ The ideal PR should be:
 6. Try to make a PR that you would enjoy reviewing
 7. Remember, the next reviewer can be you
 
-#### 3. Before sending the PR to [Code Review](#8-code-reviews) ensures that
+### 3. Before sending the PR to Code Review ensures that
 
-1. Any implementation follows the [Coding Best Practices](#3-coding-best-practices) and any team `Style Guide.`
-2. Any commit follows the [Commit Best Practices](#commit-best-practices)
+1. Any implementation follows the Coding Best Practices and any team `Style Guide.`
+2. Any commit follows the Commit Best Practices
 3. Any change has been tested at least once. That is:
    - Running the program
    - Checking if the changes work properly
@@ -150,7 +146,7 @@ The ideal PR should be:
 5. There are no linter violations on the project
 6. You have reviewed your own code
 
-#### 4. To Get Better Code Reviews ensures that
+### 4. To Get Better Code Reviews ensures that
 
 1. The PR has:
    - The minimum changes necessary to accomplish the PR's goal
