@@ -34,3 +34,20 @@ A forever WIP general best practices used on my projects.
 - Use [Markdown Lint](https://www.npmjs.com/package/markdownlint-cli)
   - Style checker and lint tool for Markdown/CommonMark files
   - Rules are configured on [`.markdownlint.yml`](https://github.com/DavidAnson/markdownlint#configuration)
+
+### Code Style Changes
+
+1. To propose a new rule or a code style change, firstly open a pull request
+2. On the PR title:
+   1. A summary of the change
+3. On the PR description:
+   1. Describe the problem you want to solve.
+   2. Your take on the correct solution to the problem.
+   3. Any relevant resource that would endorse such a change
+4. Add a commit providing 2-3 examples for the proposed solution
+   1. Preferably on a real code
+5. Request the review for the change for teammates
+6. Being approved by 51% of the teammates:
+   1. Configure the rule properly;
+   2. Apply the rule on the whole codebase on the project;
+   3. And the PR follows the regular Pull Request flow; YAY!
