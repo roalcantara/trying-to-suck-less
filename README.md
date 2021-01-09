@@ -86,3 +86,22 @@ Describe some best practices used in my projects.
 5. [Use the imperative mood in the subject line](https://chris.beams.io/posts/git-commit/#imperative)
 6. [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
 7. [Use the body to explain what and why vs how](https://chris.beams.io/posts/git-commit/#why-not-how)
+
+### 3. Tools
+
+- Use [Commit Lint](https://commitlint.js.org/#/) to lint the commit messages
+- Must configure rules on [`.commitlintrc.yml`](https://commitlint.js.org/#/reference-configuration)
+- Rules must contain the following types:
+  - **feat**: A new feature
+  - **fix**: A bug fix
+  - **docs**: Documentation only changes
+  - **style**: Changes that do not affect the meaning of the code _(white-space, formatting, missing semi-colons, etc)_
+  - **ref**: A code change that neither fixes a bug nor adds a feature
+  - **test**: Adding missing tests or correcting existing tests
+  - **revert**: A commit that reverts a previous commit
+  - **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
+  - **ci**: Changes to our CI configuration files and scripts _(example scopes: Circle, BrowserStack, SauceLabs)_
+  - **build**: Changes that affect the build system or external dependencies _(example scopes: gulp, broccoli, npm)_
+  - **perf**: A code change that improves performance
+  - **git**: Changes on git files, such as [`.gitignore`](https://git-scm.com/docs/gitignore)
+ 
