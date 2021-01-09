@@ -250,14 +250,15 @@ When reviewing a Pull Request, try to:
 
   All concepts expressed in this document have been extracted, adapted or inspired from many agile sources.
 
-  The following are some of them:
+**1. Code Review**
 
-- [Amazing Code Reviews: Creating a Superhero Collective by Alejandro Lujan • GOTO 2019](https://youtu.be/ly86Wq_E18o)
-- [Implementing a Strong Code-Review Culture by Derek Prior • RailsConf 2015](https://youtu.be/PJjmw9TRB7s)
-- [Goldilocks And The Three Code Reviews by Vaidehi Joshi • RailsConf 2017](https://youtu.be/-6EzycFNwzY)
-- [Code Review is an Architectural Necessity by Colin Dean • GitHub Universe 2016](https://youtu.be/pJFM321_lAs)
-- [How to Give and Get Better Code Reviews by Tracy Lum • Hackernoon](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
-- [Creating Simple and Effective Guidelines for Code Reviews by Joshua Gerth • New Relic](https://blog.newrelic.com/engineering/code-review-guidelines/)
+  - [2015 Implementing a Strong Code-Review Culture by Derek Prior • RailsConf](https://youtu.be/PJjmw9TRB7s)
+  - [2016 Code Review is an Architectural Necessity by Colin Dean • GitHub Universe](https://youtu.be/pJFM321_lAs)
+  - [2017 Goldilocks And The Three Code Reviews by Vaidehi Joshi • RailsConf](https://youtu.be/-6EzycFNwzY)
+  - [2018 How to Give and Get Better Code Reviews by Tracy Lum • Hackernoon](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
+  - [2018 Creating Simple and Effective Guidelines for Code Reviews by Joshua Gerth • New Relic](https://blog.newrelic.com/engineering/code-review-guidelines/)
+  - [2018 The Science of Code Reviews by Rick Kuipers • DPC2018](https://youtu.be/pL_fJ2fQSZw)
+  - [2019 Amazing Code Reviews: Creating a Superhero Collective by Alejandro Lujan • GOTO](https://youtu.be/ly86Wq_E18o)
 
 ## 10. Contribute
 
