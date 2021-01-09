@@ -13,3 +13,24 @@ A forever WIP general best practices used on my projects.
 - Use [Yarn](http://yarnpkg.com) to manage dependencies.
 - Use English on the codebase.
 - Write [readable](https://youtu.be/56mETnrByBM) and [S.O.L.I.D.](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) code.
+
+## 3. Code Style
+
+- Use [EditorConfig](https://editorconfig.org/)
+  - helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
+  - Rules are configured on [`.editorconfig`](https://editorconfig-specification.readthedocs.io/)
+- Use [Prettier](https://prettier.io/)
+  - Takes care of code formatting
+  - Rules are configured on [`.prettierrc.yml`](https://prettier.io/docs/en/configuration.html)
+- Use [ESLint](https://eslint.org/)
+  - Takes care of linting rules
+  - Rules are configured on [`.eslintrc.yml`](https://eslint.org/docs/developer-guide/shareable-configs)
+- Use [Saas Lint](https://www.npmjs.com/package/sass-lint)
+  - Linter for both sass and scss syntax
+  - Rules are configured on [`.sass-lint.yml`](https://github.com/sasstools/sass-lint/tree/master/docs/options)
+- Use [LintHTML](https://www.npmjs.com/package/@linthtml/linthtml)
+  - An unofficial html5 linter and validator
+  - Rules are configured on [`.linthtmlrc.yml`](https://github.com/linthtml/linthtml#rules)
+- Use [Markdown Lint](https://www.npmjs.com/package/markdownlint-cli)
+  - Style checker and lint tool for Markdown/CommonMark files
+  - Rules are configured on [`.markdownlint.yml`](https://github.com/DavidAnson/markdownlint#configuration)
