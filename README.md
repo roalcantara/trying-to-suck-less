@@ -161,3 +161,99 @@ One would say that some of the primary purposes of Pull Requests are:
    - Because it might difficult the Code Review
    - However, if the refactoring is inevitable
      - It should be adequately isolated and justified
+
+## 9. Git: Code Reviews
+
+One would say that some of the primary purposes of Code Reviews are:
+
+- Detecting and Reducing defects
+- Sharing knowledge on the architecture, business logic, design patterns, and techniques
+- Promoting the [collective ownership](http://www.extremeprogramming.org/rules/collective.html) of the code
+
+### 1. Suggested Checklist
+
+1. Try to understand the change and its impact on the codebase and the product
+2. For each change, ensures that
+   - It is clear
+   - It meets the requirements
+   - It has no defects
+   - It has, at least, one unit test per change
+   - It follows the Coding Best Practices
+3. For each commit, ensures that
+   - It follows the Commit Best Practices
+
+### 2. Best Practices
+
+When reviewing a Pull Request, try to:
+
+1. **Focus more on finding**
+   - Defects
+   - Logic problems
+   - Performance issues
+   - Bugs
+
+2. **Focus less on**
+   - Changes that have not been made on the commit
+   - Things not related to the Pull Request goal
+   - Coding style
+   - Nitpicking
+
+3. **Give, at least, one comment. When so, try to:**
+   - Ask, don't tell
+   - Highlight wins
+   - Highlight things that you've learnt
+   - Articulate the problems (if any) and suggest alternatives
+   - Mind your language and tone
+     - It is easy to misunderstand something online
+
+4. **On feedbacks:**
+   - Prefer full-sentences with context, examples, links if possible;
+   - Avoid passive-aggressive language;
+   - Offer actionable feedbacks;
+   - Prefer constructive feedback;
+   - Prefer questions and suggestions over commands;
+   - Prefer asking over assuming things;
+   - On suggestions, try to justify why is it a good thing to do
+   - Avoid doing the linter's job
+
+5. **Remember:**
+   - It is perfectly possible to have more than one way of solving a problem
+   - Code Reviews are more efficient when focusing on defects rather than code style
+   - Code Styles should be ruled automatically by tools. That is:
+     - If a code has no error, performance issue, defect, nor violates any linter rule, it is probably ok
+   - Some ideas are better-conveyed face-to-face
+   - You might have to maintain this change soon
+
+6. **And finally:**
+
+   As a result, ideally, a strong code review culture would:
+
+   - Allow the author to be delighted to have this attention and receiving feedbacks
+   - Allow the reviewer to be glad to be able to learn and giving feedbacks
+   - Foster collective ownership of the code
+   - Generate a healthy environment, in which:
+     - I feel respected and I respect my teammates;
+     - I feel trusted and I trust my teammates;
+     - I feel supported for asking for help when I need;
+     - I'm able to help whenever I can;
+     - I'm listened and I fell that my opinion matters;
+     - I'm proud of my work;
+     - I'm pleased and grateful for being part of this team;
+     - I see the impact of my work on our code, our team and our product;
+   - Generate a general perception that:
+     - I'm getting better each day;
+     - Our code is getting better each day;
+     - We, as a team, are getting better each day;
+     - Our product is getting better each day;
+
+### 6. Acknowledgements
+
+  All concepts expressed in this document have been extracted, adapted or inspired from many agile sources.
+
+  The following are some of them:
+
+- [GOTO 2019 • Amazing Code Reviews: Creating a Superhero Collective by Alejandro Lujan](https://youtu.be/ly86Wq_E18o)
+- [Implementing a Strong Code-Review Culture by Derek Prior](https://www.youtube.com/watch?v=PJjmw9TRB7s)
+- [Goldilocks And The Three Code Reviews by Vaidehi Joshi](https://www.youtube.com/watch?v=-6EzycFNwzY)
+- [Code Review is an Architectural Necessity - GitHub Universe 2016](https://youtu.be/pJFM321_lAs)
+- [How to Give and Get Better Code Reviews](https://hackernoon.com/how-to-give-and-get-better-code-reviews-e011c3cda55e)
